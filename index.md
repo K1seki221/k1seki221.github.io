@@ -20,6 +20,8 @@ My research interests focus on efficient pre-training for LLMs/VLMs, AI for scie
 
 # News 
 
+[01/2026] One of our recent works has been accepted by ICLR 2026. Congratulations to all collaborators!
+
 [09/2025] One of our recent works has been accepted by NeurIPS 2025. Congratulations to all collaborators!
 
 [08/2025] One of our recent works has been accepted by EMNLP 2025 <span style="color:red">(oral)</span>. Congratulations to all collaborators!
