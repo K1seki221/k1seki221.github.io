@@ -1,7 +1,7 @@
 <!-- -->
-- <span class="badge">Preprint</span> **Rényi Sharpness: A Novel Sharpness that Strongly Correlates with Generalization** <br>
+- <span class="badge">ICLR 2026</span> **Rényi Sharpness: A Novel Sharpness that Strongly Correlates with Generalization** <br>
   Qiaozhe Zhang, Jun Sun, <span class="underline"><b>Ruijie Zhang</b></span>, Yingzhuang Liu <br>
-  arXiv 2025 (Submitted to ICLR 2025)<br>
+  arXiv 2025 <br>
   <div class="newbadges" id="tabs" data-open="">
   <button class="newbadge green"  type="button" data-tab="bib">bib</button>
   <button class="newbadge orange" type="button" data-tab="abstract">abstract</button>
