@@ -20,6 +20,8 @@ My research interests focus on efficient pre-training for LLMs/VLMs, AI for scie
 
 # News 
 
+[01/2026] One of our recent works has been accepted by MLSys 2026. Congratulations to all collaborators!
+
 [01/2026] One of our recent works has been accepted by ICLR 2026. Congratulations to all collaborators!
 
 [09/2025] One of our recent works has been accepted by NeurIPS 2025. Congratulations to all collaborators!
@@ -33,6 +35,8 @@ My research interests focus on efficient pre-training for LLMs/VLMs, AI for scie
 # Publications
 
 <!--<span class="badge">J</span> Journal <span class="badge">C</span> Conference <br>-->
+
+{% include paper_md/BOOST.md %}
 
 {% include paper_md/renyi_sharpness.md %}
 
