@@ -43,13 +43,15 @@ My research interests focus on efficient pre-training for LLMs and multimodal Mo
 
 {% include paper_md/renyi_sharpness.md %}
 
-{% include paper_md/MuonPlus.md %}
-
 {% include paper_md/LaX.md %}
 
 {% include paper_md/CoLA.md %}
 
 {% include paper_md/pruning_limit.md %}
+
+# Preprints
+
+{% include paper_md/MuonPlus.md %}
 
 {% include paper_md/mmil.md %}
 
