@@ -6,7 +6,7 @@ permalink: /index.html
 
 <img style="float:right; padding-left:10px" src="images/icon.JPG" width="220" height="268">
 
-I am a 2nd year Computer Science Ph.D. student at [University of California, Santa Barbara](https://www.cs.ucsb.edu/), supervised by [Prof. Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/), and is expected to graduate in 2028.
+I am a 3rd-year Computer Science Ph.D. student at [University of California, Santa Barbara](https://www.cs.ucsb.edu/), supervised by [Prof. Zheng Zhang](https://web.ece.ucsb.edu/~zhengzhang/), and is expected to graduate in 2028.
 
 Before joining UCSB, I received my B.S. and M.S. from [EIC@Huazhong University of Science and Technology](http://english.eic.hust.edu.cn/), worked with [Prof. Jun Sun](https://hust.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=15979), [Prof. Xinggang Wang](https://xwcv.github.io/) and [Prof. Yingzhuang Liu](https://hust.teacher.360eol.com/teacherBasic/preview?teacherType=&teacherId=15939) on computer vision and interpretability of deep learning.
 
