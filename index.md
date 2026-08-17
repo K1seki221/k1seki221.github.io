@@ -29,6 +29,8 @@ My research interests focus on efficient pre-training for LLMs and multimodal Mo
 
 [08/2025] One of our recent works has been accepted by EMNLP 2025 <span style="color:red">(oral)</span>. Congratulations to all collaborators!
 
+[03/2025] <span style="color:red">**Open-Sora 2.0**</span> is released! Our fully open-source, commercial-level video generation model has now surpassed <span style="color:red">**29k stars**</span> on [GitHub](https://github.com/hpcaitech/Open-Sora). Congratulations to all collaborators!
+
 [09/2024] Joined Computer Science@UCSB Ph.D Program.
 
 [09/2024] One of our recent works has been accepted by NeurIPS 2024. Congratulations to all collaborators!
