@@ -12,11 +12,10 @@ Before joining UCSB, I received my B.S. and M.S. from [EIC@Huazhong University o
 
 # Research Interests
 
-My research interests focus on efficient pre-training for LLMs/VLMs, AI for science, computer vision, and the mathematical & physical principles behind them. I have recently focused on
-
+My research interests focus on efficient pre-training for LLMs and multimodal Models, AI for science, computer vision, and the mathematical & physical principles behind them. I have recently focused on
+ - Pre-training VLAs/WAMs.
  - Low-rank pre-training foundation models.
- - Low-precision training.
- - Sparse attention.
+ - Muon Optimizer.
 
 # News 
 
