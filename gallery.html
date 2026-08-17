@@ -1,0 +1,185 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+
+<p class="gallery-intro">
+Outside of research, I photograph. Most of these frames were made while walking: a
+Ricoh GR IV lives in my pocket for the moments that only exist for a second, and a
+Sony A7R IV comes along when I know in advance that I will want the detail. I am
+drawn to ordinary streets, to travel that leaves room for detours, and to whatever
+light happens to be passing through them.
+</p>
+
+<div class="gallery-grid">
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/dsc-06529-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/dsc-06529.jpg"
+           width="800" height="450" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/frame-01-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/frame-01.jpg"
+           width="534" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/gr-1817-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/gr-1817.jpg"
+           width="533" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/gr-1743-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/gr-1743.jpg"
+           width="600" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/dsc-06336-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/dsc-06336.jpg"
+           width="800" height="450" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/dsc-06378-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/dsc-06378.jpg"
+           width="800" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/gr-1347-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/gr-1347.jpg"
+           width="800" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/night-6336-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/night-6336.jpg"
+           width="533" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/dsc-02071-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/dsc-02071.jpg"
+           width="533" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/dsc-00628-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/dsc-00628.jpg"
+           width="600" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+    <figure class="shot">
+      <img src="{{ site.baseurl }}/images/gallery/dsc-00289-thumb.jpg"
+           data-full="{{ site.baseurl }}/images/gallery/dsc-00289.jpg"
+           width="533" height="800" loading="lazy" decoding="async" alt="Photograph">
+    </figure>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" type="button" aria-label="Close">&times;</button>
+  <button class="lb-prev"  type="button" aria-label="Previous">&#8249;</button>
+  <button class="lb-next"  type="button" aria-label="Next">&#8250;</button>
+  <img class="lb-img" id="lb-img" alt="Photograph, enlarged">
+  <div class="lb-count" id="lb-count"></div>
+</div>
+
+<style>
+.gallery-intro { margin-bottom: 28px; }
+
+.gallery-grid { column-count: 3; column-gap: 14px; }
+@media screen and (max-width: 900px) { .gallery-grid { column-count: 2; } }
+@media screen and (max-width: 560px) { .gallery-grid { column-count: 1; } }
+
+.gallery-grid .shot { margin: 0 0 14px; break-inside: avoid; }
+.gallery-grid .shot img {
+  width: 100%; height: auto; display: block; border-radius: 3px;
+  cursor: zoom-in; background: #f2f2f2;
+  transition: opacity .18s ease, transform .18s ease;
+}
+.gallery-grid .shot img:hover { opacity: .88; transform: translateY(-2px); }
+
+.lightbox {
+  position: fixed; inset: 0; z-index: 999;
+  background: rgba(0,0,0,.94);
+  display: flex; align-items: center; justify-content: center;
+}
+.lightbox[hidden] { display: none; }
+.lb-img {
+  max-width: 92vw; max-height: 88vh;
+  object-fit: contain; cursor: zoom-out; border-radius: 2px;
+}
+.lightbox button {
+  position: absolute; background: none; border: 0; color: #fff;
+  opacity: .65; cursor: pointer; line-height: 1; padding: 10px;
+  font-family: inherit; -webkit-appearance: none; appearance: none;
+}
+.lightbox button:hover { opacity: 1; }
+.lb-close { top: 10px; right: 16px; font-size: 40px; }
+.lb-prev, .lb-next { top: 50%; transform: translateY(-50%); font-size: 56px; }
+.lb-prev { left: 8px; }
+.lb-next { right: 8px; }
+.lb-count {
+  position: absolute; bottom: 16px; left: 0; right: 0;
+  text-align: center; color: #fff; opacity: .6; font-size: 13px;
+}
+@media screen and (max-width: 560px) {
+  .lb-prev, .lb-next { font-size: 40px; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .gallery-grid .shot img { background: #2a2b2e; }
+}
+</style>
+
+<script>
+(function () {
+  var shots = Array.prototype.slice.call(
+    document.querySelectorAll('.gallery-grid .shot img'));
+  if (!shots.length) return;
+
+  var box   = document.getElementById('lightbox');
+  var img   = document.getElementById('lb-img');
+  var count = document.getElementById('lb-count');
+  var i = 0;
+  var lastFocus = null;
+
+  function show(n) {
+    i = (n + shots.length) % shots.length;
+    img.src = shots[i].getAttribute('data-full');
+    count.textContent = (i + 1) + ' / ' + shots.length;
+  }
+  function open(n) {
+    lastFocus = document.activeElement;
+    show(n);
+    box.hidden = false;
+    document.body.style.overflow = 'hidden';
+    // preload neighbours
+    [i + 1, i - 1].forEach(function (k) {
+      var p = new Image();
+      p.src = shots[(k + shots.length) % shots.length].getAttribute('data-full');
+    });
+  }
+  function close() {
+    box.hidden = true;
+    img.removeAttribute('src');
+    document.body.style.overflow = '';
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  shots.forEach(function (el, n) {
+    el.addEventListener('click', function () { open(n); });
+  });
+
+  box.querySelector('.lb-close').addEventListener('click', close);
+  box.querySelector('.lb-prev').addEventListener('click', function (e) {
+    e.stopPropagation(); show(i - 1);
+  });
+  box.querySelector('.lb-next').addEventListener('click', function (e) {
+    e.stopPropagation(); show(i + 1);
+  });
+  img.addEventListener('click', close);
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'Escape')     close();
+    if (e.key === 'ArrowRight') show(i + 1);
+    if (e.key === 'ArrowLeft')  show(i - 1);
+  });
+})();
+</script>

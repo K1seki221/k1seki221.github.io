@@ -17,6 +17,8 @@ My research interests focus on efficient pre-training for LLMs and multimodal Mo
  - Low-rank pre-training foundation models.
  - Muon Optimizer.
 
+Away from the desk I shoot street and travel photographs; a selection lives in the [gallery]({{ site.baseurl }}/gallery/).
+
 # News 
 
 [08/2026] One of our recent works has been accepted by COLM 2026. Congratulations to all collaborators!
