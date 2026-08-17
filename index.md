@@ -19,6 +19,8 @@ My research interests focus on efficient pre-training for LLMs and multimodal Mo
 
 # News 
 
+[08/2026] One of our recent works has been accepted by COLM 2026. Congratulations to all collaborators!
+
 [01/2026] One of our recent works has been accepted by MLSys 2026. Congratulations to all collaborators!
 
 [01/2026] One of our recent works has been accepted by ICLR 2026. Congratulations to all collaborators!
@@ -35,9 +37,13 @@ My research interests focus on efficient pre-training for LLMs and multimodal Mo
 
 <!--<span class="badge">J</span> Journal <span class="badge">C</span> Conference <br>-->
 
+{% include paper_md/MuonQ.md %}
+
 {% include paper_md/BOOST.md %}
 
 {% include paper_md/renyi_sharpness.md %}
+
+{% include paper_md/MuonPlus.md %}
 
 {% include paper_md/LaX.md %}
 
