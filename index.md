@@ -51,7 +51,23 @@ My research interests focus on efficient pre-training for LLMs and multimodal Mo
 
 # Preprints
 
+{% include paper_md/GRZO.md %}
+
+{% include paper_md/FuRA.md %}
+
+{% include paper_md/ReCoVer.md %}
+
+{% include paper_md/Muon2.md %}
+
+{% include paper_md/renyi_entropy.md %}
+
 {% include paper_md/MuonPlus.md %}
 
+{% include paper_md/TEON.md %}
+
+{% include paper_md/opensora.md %}
+
 {% include paper_md/mmil.md %}
+
+{% include paper_md/rnd_sci.md %}
 
